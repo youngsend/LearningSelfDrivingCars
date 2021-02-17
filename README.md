@@ -1,2 +1,4 @@
 # LearningSelfDrivingCars
-Learning Memo of the Self-Driving Cars course in Coursera.
+Learning Memo of the following online courses:
+- Self-Driving Cars Specialization, Coursera (https://www.coursera.org/specializations/self-driving-cars).
+- Sensor Fusion Engineer, Udacity (https://www.udacity.com/course/sensor-fusion-engineer-nanodegree--nd313).
