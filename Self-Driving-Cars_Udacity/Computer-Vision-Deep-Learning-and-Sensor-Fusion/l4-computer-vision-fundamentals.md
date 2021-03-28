@@ -112,3 +112,13 @@ line_image[~color_thresholds & region_thresholds] = [255,0,0]
 ## 17. Parameter Tuning
 
 - Computer Visionでのチューニングは、GUIツールのほうがよさそう。https://github.com/maunesh/opencv-gui-helper-tool
+
+## Project
+
+- The reviewer mentioned this paper that I should read later: https://www.sciencedirect.com/science/article/pii/S240595952030240X 
+
+- Reviewerの意見は、HSV or HSL color spaceの利用： https://naokishibuya.medium.com/finding-lane-lines-on-the-road-30cf016a1165
+- また、Canny edge detectionのhigh threshold, low thresholdの選択について：https://stackoverflow.com/questions/21324950/how-can-i-select-the-best-set-of-parameters-in-the-canny-edge-detection-algorith
+- また、Hough transformの曲線検知について：https://airccj.org/CSCP/vol5/csit53211.pdf
+- また、using clustering to remove the outliers by considering the historical data: https://www.researchgate.net/publication/221324943_A_Simple_and_Efficient_Lane_Detection_using_Clustering_and_Weighted_Regression
+
