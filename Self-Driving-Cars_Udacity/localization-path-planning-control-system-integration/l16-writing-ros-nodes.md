@@ -295,3 +295,21 @@ rospy.logfatal(...)
   | `"screen"` | screen   | screen         |
   | `"log"`    | log      | screen and log |
 
+### 7. dive deeper into packages
+
+- ROS packages have a conventional directory structure. Let’s take a look at a more typical package. 
+
+  - scripts (python executables)
+  - src (C++ source files)
+  - msg (for custom message definitions)
+  - srv (for service message definitions)
+  - include -> headers/libraries that are needed as dependencies
+  - config -> configuration files
+  - launch -> provide a more automated way of starting nodes
+
+  Other folders may include
+
+  - urdf (Universal Robot Description Files)
+  - meshes (CAD files in .dae (Collada) or .stl (STereoLithography) format)
+  - worlds (XML like files that are used for Gazebo simulation environments)
+
